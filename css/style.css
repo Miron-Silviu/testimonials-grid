@@ -1,5 +1,8 @@
 @import "./normalize.css";
 
+html {
+  font-size: 62.5%;
+}
 :root {
   --moderate-violet: hsl(263, 55%, 52%);
   --very-dark-grayish-blue: hsl(217, 19%, 35%);
@@ -12,4 +15,51 @@
 body {
   background: var(--light-gray);
   font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.testimonial__grid {
+  display: grid;
+}
+.testimonial__user {
+  display: flex;
+}
+
+.card__image {
+  border-radius: 100%;
+  border: 1.5px solid var(--light-gray);
+  margin: 2rem;
+}
+.title__name {
+  margin: 4rem 0;
+  padding: 0;
+}
+.card__name {
+  color: var(--white);
+  /* margin: 0.5rem 0; */
+  font-size: 1.2rem;
+}
+p {
+  margin: 0;
+  color: var(--light-grayish-blue);
+  /* padding: 0.5rem 0; */
+}
+
+.testimonial__card {
+  background: var(--moderate-violet);
+  border-radius: 2%;
+  padding: 1rem;
+  margin: 5rem;
+}
+
+.card__description {
+  margin: 0 2rem;
+  color: var(--white);
+  letter-spacing: 0.5px;
+}
+
+.card__story {
+  margin: 2rem;
+  font-size: 1.5rem;
+  text-align: left;
+  color: var(--light-gray);
 }

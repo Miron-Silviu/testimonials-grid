@@ -10,11 +10,13 @@ html {
   --white: hsl(0, 0%, 100%);
   --light-gray: hsl(0, 0%, 81%);
   --light-grayish-blue: hsl(210, 46%, 95%);
+  --letter-spacing: 2.7px;
 }
 
 body {
   background: var(--light-gray);
   font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 1.3rem;
 }
 
 .testimonial__grid {
@@ -28,38 +30,45 @@ body {
   border-radius: 100%;
   border: 1.5px solid var(--light-gray);
   margin: 2rem;
+  width: 8%;
+  height: 8%;
 }
 .title__name {
-  margin: 4rem 0;
-  padding: 0;
+  margin: 2rem 5rem 0 -2rem;
+  padding: 0 2rem;
 }
 .card__name {
   color: var(--white);
-  /* margin: 0.5rem 0; */
+  padding-bottom: 0.5rem;
   font-size: 1.2rem;
+}
+.quotation__image {
+  position: absolute;
+  left: 66%;
+  height: 12%;
+  overflow: hidden;
 }
 p {
   margin: 0;
   color: var(--light-grayish-blue);
-  /* padding: 0.5rem 0; */
 }
 
 .testimonial__card {
   background: var(--moderate-violet);
   border-radius: 2%;
-  padding: 1rem;
-  margin: 5rem;
+  margin: 5rem 2rem;
 }
 
 .card__description {
   margin: 0 2rem;
   color: var(--white);
-  letter-spacing: 0.5px;
+  letter-spacing: var(--letter-spacing);
+  position: relative;
 }
 
 .card__story {
   margin: 2rem;
-  font-size: 1.5rem;
   text-align: left;
   color: var(--light-gray);
+  line-height: 1.5;
 }

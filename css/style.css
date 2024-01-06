@@ -61,7 +61,7 @@ body {
 }
 p {
   margin: 0;
-  color: var(--light-grayish-blue);
+  color: var(--light-gray);
 }
 
 .card__description {
@@ -84,4 +84,18 @@ p {
   border-radius: var(--border-radius);
   margin: var(--margin);
   background: var(--very-dark-grayish-blue);
+}
+
+/* Third Card  */
+
+.third-user-card {
+  background: var(--white);
+  margin: var(--margin);
+  border-radius: var(--border-radius);
+}
+
+.card-description,
+.card-story,
+.card-name {
+  color: var(--very-dark-grayish-blue);
 }

@@ -99,3 +99,11 @@ p {
 .card-name {
   color: var(--very-dark-grayish-blue);
 }
+
+/* Forth Card */
+
+.forth-user-card {
+  border-radius: var(--border-radius);
+  margin: var(--margin);
+  background: var(--very-dark-blackish-blue);
+}

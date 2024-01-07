@@ -107,3 +107,15 @@ p {
   margin: var(--margin);
   background: var(--very-dark-blackish-blue);
 }
+
+@media screen and (min-width: 700px) {
+  .testimonial__grid {
+    grid-template: repeat(2, 400px) / repeat(3, 600px);
+    justify-items: stretch;
+    align-items: stretch;
+  }
+  .first-user-card {
+  }
+  .forth-user-card {
+  }
+}

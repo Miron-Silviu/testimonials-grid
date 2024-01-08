@@ -55,9 +55,8 @@ body {
 }
 .quotation__image {
   position: absolute;
-  left: 66%;
-  height: 12%;
-  overflow: hidden;
+  left: 60%;
+  height: 25%;
 }
 p {
   margin: 0;
@@ -116,7 +115,7 @@ p {
   border-radius: var(--border-radius);
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1024px) {
   .testimonial__grid {
     grid-template: repeat(2, 1fr) / repeat(4, 1fr);
     margin: 10rem;
@@ -127,7 +126,8 @@ p {
     grid-column: 1 / span 2;
   }
   .quotation__image {
-    position: relative;
+    left: 37%;
+    height: 17%;
   }
   .second-user-card {
     grid-column: 3 / 4;

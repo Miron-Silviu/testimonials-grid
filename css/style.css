@@ -86,7 +86,7 @@ p {
   background: var(--very-dark-grayish-blue);
 }
 
-/* Third and fifth Cards  */
+/* Third  Card  */
 
 .third-user-card {
   background: var(--white);
@@ -115,6 +115,7 @@ p {
   margin: var(--margin);
   border-radius: var(--border-radius);
 }
+
 @media screen and (min-width: 800px) {
   .testimonial__grid {
     grid-template: repeat(2, 1fr) / repeat(4, 1fr);

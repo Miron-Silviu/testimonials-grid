@@ -56,7 +56,7 @@ body {
 .quotation__image {
   position: absolute;
   left: 60%;
-  height: 6%;
+  height: 12%;
 }
 p {
   margin: 0;
@@ -130,7 +130,7 @@ p {
   }
   .quotation__image {
     left: 37%;
-    height: 12%;
+    height: 15%;
   }
   .second-user-card {
     grid-column: 3 / 4;
@@ -151,6 +151,6 @@ p {
     height: 14%;
   }
   .card__story {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
   }
 }

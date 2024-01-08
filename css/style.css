@@ -108,14 +108,35 @@ p {
   background: var(--very-dark-blackish-blue);
 }
 
-@media screen and (min-width: 700px) {
+/* Fifth Card */
+
+.fifth-user-card {
+  background: var(--white);
+  margin: var(--margin);
+  border-radius: var(--border-radius);
+}
+@media screen and (min-width: 800px) {
   .testimonial__grid {
-    grid-template: repeat(2, 400px) / repeat(3, 600px);
-    justify-items: stretch;
-    align-items: stretch;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    margin: 10rem;
+    justify-content: center;
+    align-content: center;
   }
   .first-user-card {
+    grid-column: 1 / span 2;
   }
+  .quotation__image {
+    position: relative;
+  }
+  .second-user-card {
+    grid-column: 3 / 4;
+  }
+
   .forth-user-card {
+    grid-column: 2 / span 2;
+  }
+  .fifth-user-card {
+    grid-row: -1 / -3;
+    grid-column: 4 / 5;
   }
 }

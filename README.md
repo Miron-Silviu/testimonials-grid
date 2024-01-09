@@ -35,5 +35,5 @@ style.css, using BEM and Object Orientated CSS.
 
 ### What I learned
 
-Building this project I able to improve my skills regarding
+Building this project I was able to improve my skills regarding
 absolute position and grid layout .

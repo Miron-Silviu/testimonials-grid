@@ -18,7 +18,7 @@ html {
 body {
   background: var(--light-gray);
   font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 1.3rem;
+  font-size: 13px;
 }
 
 .testimonial__grid {
@@ -121,9 +121,6 @@ p {
     margin: 10rem;
     justify-content: center;
     align-content: center;
-  }
-  .card__story {
-    font-size: 1.9.rem;
   }
   .first-user-card {
     grid-column: 1 / span 2;

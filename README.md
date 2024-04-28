@@ -3,11 +3,12 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
+- [The challenge](#the-challenge)
+- [Links](#links)
+- [Screenshot](#screenshot)
 - [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
 
 ## Overview
 
@@ -20,6 +21,10 @@ The website is fully responsive build with mobile first in mind and is apply Obj
 ### Links
 
 - Live Site URL: [https://miron-silviu.github.io/testimonials-grid/]
+
+- ### Screenshot
+  ![Phone](image.png)
+  ![desktop](image-1.png)
 
 ## My process
 

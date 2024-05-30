@@ -14,15 +14,14 @@
 
 In this project was build a Testimonial-Grid-Section.
 
-### The challenge
+##The challenge
 
 The website is fully responsive build with mobile first in mind and is apply Object Oriented CSS and BEM (Block Element Modifier). The main challenge was to adapt the svg picture wih the position absolute for each device.
 
-### Links
+# LINK
+[CLICK ME FOR LIVE VIEW](https://miron-silviu.github.io/testimonials-grid/)
 
-- Live Site URL: [https://miron-silviu.github.io/testimonials-grid/]
-
-- ### Screenshot
+- ## Screenshot
   ![Phone](image.png)
   ![desktop](image-1.png)
 
@@ -31,7 +30,7 @@ The website is fully responsive build with mobile first in mind and is apply Obj
 Build the components in index.html and style it in
 style.css, using BEM and Object Orientated CSS.
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties

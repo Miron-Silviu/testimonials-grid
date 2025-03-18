@@ -2,28 +2,28 @@
 
 ## Table of contents
 
+- [Links](#links)
 - [Overview](#overview)
 - [The challenge](#the-challenge)
-- [Links](#links)
 - [Screenshot](#screenshot)
 - [My process](#my-process)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
 
+# Links
+[![DEPLOYMENT](https://github.com/Miron-Silviu/Guess-my-Number/blob/main/images/Frame%201.png)](https://miron-silviu.github.io/testimonials-grid/)
+
 ## Overview
 
 In this project was build a Testimonial-Grid-Section.
 
-##The challenge
+## The challenge
 
 The website is fully responsive build with mobile first in mind and is apply Object Oriented CSS and BEM (Block Element Modifier). The main challenge was to adapt the svg picture wih the position absolute for each device.
 
-# LINK
-[ VIEW DEMO](https://miron-silviu.github.io/testimonials-grid/)
-
 - ## Screenshot
-  ![Phone](image.png)
-  ![desktop](image-1.png)
+![Phone](image.png)
+![desktop](image-1.png)
 
 ## My process
 
@@ -37,7 +37,7 @@ style.css, using BEM and Object Orientated CSS.
 - CSS Grid
 - Mobile-first workflow
 
-### What I learned
+## What I learned
 
 Building this project I was able to improve my skills regarding
 absolute position and grid layout .
